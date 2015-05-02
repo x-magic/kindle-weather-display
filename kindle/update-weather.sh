@@ -5,6 +5,9 @@
 # 5,20,35,50 * * * * /bin/sh /mnt/base-us/kindle-weather-display/update-weather.sh > /dev/null 2>&1
 # BTW, I choose to put all files on USB drive instead of system partition. Also the update is shorten to every 15 minutes with offset of 5 minutes earlier than server updates.
 
+# Quit when detect a disable flag
+if [ -e disable ]; then exit 0; fi
+
 cd "$(dirname "$0")"
 # Clear the display
 eips -c

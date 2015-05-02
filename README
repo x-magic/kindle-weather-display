@@ -5,3 +5,7 @@ http://www.mpetroff.net/archives/2012/09/14/kindle-weather-display/
 My version changes python/XML to PHP/json and also uses Weather Underground API so usable around the world. 
 
 Remember to replace API Key and set correct paths before start using!
+
+Updates:
+- Added a battery drained image. It will show up when battery capacity is less than 10% and is not charging. 
+- Added a function that allow you to disable weather stand since once it's on you can't read Kindle anymore unless reboot. 
