@@ -1,4 +1,5 @@
 Adopted From:
+https://github.com/mpetroff/kindle-weather-display
 http://www.mpetroff.net/archives/2012/09/14/kindle-weather-display/
 
 My version changes python/XML to PHP/json and also uses Weather Underground API so usable around the world. 
